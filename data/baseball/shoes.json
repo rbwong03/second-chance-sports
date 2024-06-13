@@ -1,0 +1,30 @@
+[
+  {
+    "id": 5,
+    "name": "Used New Balance Cleats",
+    "price": 70,
+    "brand": "New Balance",
+    "condition": "Good condition",
+    "color": "White",
+    "yearsUsed": 1,
+    "category": "Baseball",
+    "type": "shoes",
+    "image": "images/baseball/cleats.png",
+    "description": "These cleats are in good condition. I've only used them for my senior season, so I guess it's time to hang them up. Hopefully whoever gets them next will have a good season.",
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "name": "New Bryce Harper Cleats",
+    "price": 150,
+    "brand": "Under Armour",
+    "condition": "New",
+    "color": "Red, White, and Blue",
+    "yearsUsed": 0,
+    "category": "Baseball",
+    "type": "shoes",
+    "image": "images/baseball/cleats-2.jpeg",
+    "description": "I got these Bryce Harper cleats but they are too big for me. Size 11 and brand new. Selling them at a discounted price from retail just so I can use the money for right size cleats.",
+    "quantity": 1
+  }
+]

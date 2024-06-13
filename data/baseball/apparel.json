@@ -1,0 +1,30 @@
+[
+    {
+      "id": 7,
+      "name": "Anthony Rizzo Away Jersey",
+      "price": 65,
+      "brand": "Nike",
+      "condition": "Good condition",
+      "color": "Gray",
+      "yearsUsed": 8,
+      "category": "Baseball",
+      "type": "apparel",
+      "image": "images/baseball/jersey.png",
+      "description": "Good condition Anthony Rizzo jersey. I've had this stored away in my closet ever since he got traded to the Yankees. If anyone wants this let me know, letting it go for a decent price. No stains or anything, just a lot of happy memories.",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "name": "Javier Baez Jersey",
+      "price": 50,
+      "brand": "Under Armour",
+      "condition": "Good",
+      "color": "Blue",
+      "yearsUsed": 6,
+      "category": "Baseball",
+      "type": "apparel",
+      "image": "images/baseball/jersey-2.png",
+      "description": "Used Javier Baez jersey. I've had this for a while, but he's honestly become one of my least favorite players since leaving the Cubs. Cheap price for this jersey.",
+      "quantity": 1
+    }
+  ]

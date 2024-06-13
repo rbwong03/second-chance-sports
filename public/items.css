@@ -1,0 +1,179 @@
+/**
+ * Ryan Wong
+ * June 2024
+ * 
+ * This is the .css file that sets up the items page. 
+ */
+
+header {
+  font-family: 'Lato', sans-serif;
+}
+
+nav ul,
+header h1,
+body {
+  margin: 0;
+}
+
+body,
+nav ul {
+  padding: 0;
+}
+
+header,
+.add-to-cart,
+.buy-now {
+  background-color: #333;
+}
+
+header,
+.add-to-cart,
+.buy-now,
+nav ul li a {
+  color: white;
+}
+
+nav ul,
+main,
+.product,
+.purchase-info {
+  display: flex;
+}
+
+nav ul,
+main {
+  justify-content: center;
+}
+
+.product,
+.product img {
+  border-radius: 10px;
+}
+
+.purchase-info,
+.item-details {
+  padding: 0 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #17a2b8;
+}
+
+main {
+  margin: 20px;
+}
+
+.product {
+  justify-content: space-between;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 30%;
+  height: auto;
+}
+
+.item-details {
+  width: 40%;
+}
+
+.item-details h2 {
+  margin-top: 0;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.purchase-info {
+  width: 20%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.purchase-info p {
+  margin: 5px 0;
+}
+
+.purchase-info label,
+.purchase-info input,
+.add-to-cart,
+.buy-now {
+  margin: 10px 0;
+}
+
+.add-to-cart,
+.buy-now {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover,
+.buy-now:hover {
+  background-color: #495057;
+}
+
+.success,
+.message {
+  display: block;
+}
+button:active {
+  transform: translate(0px, 2px);
+}
+
+.product {
+  margin-bottom: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.product img {
+  width: 400px;
+  height: 300px;
+}

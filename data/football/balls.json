@@ -1,0 +1,30 @@
+[
+    {
+      "id": 19,
+      "name": "Pro Football",
+      "price": 35,
+      "brand": "Wilson",
+      "condition": "Good",
+      "color": "Brown",
+      "yearsUsed": 1,
+      "category": "football",
+      "type": "balls",
+      "image": "images/football/footballs.png",
+      "description": "Football in great condition. I've only used it for about a year or so, but I'm looking to sell it. It's a great ball for anyone looking to play some football.",
+      "quantity": 1
+    },
+    {
+        "id": 20,
+        "name": "Recess Footballs",
+        "price": 15,
+        "brand": "Rawlings Franklin",
+        "condition": "Good",
+        "color": "Multiple",
+        "yearsUsed": 2,
+        "category": "football",
+        "type": "balls",
+        "image": "images/football/recess-balls.png",
+        "description": "I've got 5 footballs here that my students have used for recess. They're all in good condition. Threw for about 5000 yards this year during 5th grade recess as the all time QB. Getting new balls for next year so buy as many as you'd like.",
+        "quantity": 5
+      }
+  ]

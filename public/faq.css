@@ -1,0 +1,111 @@
+/**
+ * Ryan Wong
+ * June 2024
+ * 
+ * This is the .css file that sets up the faq page. 
+ */
+
+body,
+header h1,
+nav ul,
+.faq-question {
+  margin: 0;
+}
+
+body,
+nav ul {
+  padding: 0;
+}
+
+body,
+.faq-answer {
+  background-color: #f8f8f8;
+}
+
+header,
+.faq-question {
+  background-color: #333;
+}
+
+header,
+nav ul li a,
+.faq-question {
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 1em 0;
+}
+
+main,
+nav ul {
+  display: flex;
+}
+
+main,
+nav ul {
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #17a2b8;
+}
+
+main {
+  margin: 20px;
+}
+
+.faq {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 50%;
+}
+
+.faq h2,
+header {
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question,
+.faq-answer {
+  padding: 10px;
+}
+
+.faq-question {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.faq-question:hover {
+  background-color: #495057;
+}
+
+.faq-answer {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}

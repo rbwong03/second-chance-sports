@@ -1,0 +1,30 @@
+[
+  {
+    "id": 11,
+    "name": "Used Wilson Basketball",
+    "price": 10,
+    "brand": "Wilson",
+    "condition": "Playable",
+    "color": "Brown",
+    "yearsUsed": 2,
+    "category": "basketball",
+    "type": "balls",
+    "image": "images/basketball/basketball.png",
+    "description": "Outdoor ball that I've been using for the past 2 years. I don't expect anyone to buy this, but if someone wants it, it's here.",
+    "quantity": 1
+  },
+  {
+    "id": 12,
+    "name": "Used Basketballs",
+    "price": 70,
+    "brand": "Multiple",
+    "condition": "Used",
+    "color": "Brown",
+    "yearsUsed": 1,
+    "category": "basketball",
+    "type": "balls",
+    "image": "images/basketball/basketball-2.png",
+    "description": "The basketballs my students have used for recess this past year. They're in decent condition, just getting new ones for next year. If anyone wants them, I'm selling them for pretty cheap.",
+    "quantity": 5
+  }
+]

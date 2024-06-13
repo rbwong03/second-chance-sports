@@ -1,0 +1,30 @@
+[
+  {
+    "id": 21,
+    "name": "Kick Football Holder",
+    "price": 25,
+    "brand": "Wilson",
+    "condition": "Good",
+    "color": "Red",
+    "yearsUsed": 4,
+    "category": "football",
+    "type": "equipment",
+    "image": "images/football/holder.png",
+    "description": "Just finished my football career and I have a lot of equipment that I don't need anymore. I have a football holder that I used for practice.",
+    "quantity": 1
+  },
+  {
+    "id": 22,
+    "name": "Football Shoulder Pads",
+    "price": 60,
+    "brand": "Nike",
+    "condition": "Good",
+    "color": "White",
+    "yearsUsed": 3,
+    "category": "football",
+    "type": "equipment",
+    "image": "images/football/pads.png",
+    "description": "Good condition pads. Played 3 seasons with them, but outgrew them before my senior season.",
+    "quantity": 1
+  }
+]

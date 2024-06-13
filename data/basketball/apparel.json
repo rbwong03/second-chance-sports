@@ -1,0 +1,30 @@
+[
+  {
+    "id": 9,
+    "name": "Used Derrick Rose Jersey",
+    "price": 80,
+    "brand": "Adidas",
+    "condition": "Good",
+    "color": "Red",
+    "yearsUsed": 10,
+    "category": "basketball",
+    "type": "apparel",
+    "image": "images/basketball/jersey.png",
+    "description": "I wish I wasn't parting way with this Derrick Rose jersey, but I'm moving and don't have a lot of storage. It's in good conditions, no stains or anything. Hope the person who buys this loves Rose as much as I do.",
+    "quantity": 1
+  },
+  {
+    "id": 10,
+    "name": "Michael Jordan Jersey",
+    "price": 50,
+    "brand": "NBA",
+    "condition": "Okay",
+    "color": "Red",
+    "yearsUsed": 30,
+    "category": "basketball",
+    "type": "apparel",
+    "image": "images/basketball/jersey-2.jpeg",
+    "description": "Old Michael Jordan jersey that I've had for a long time. It's in decent condition, but it's been through a lot. I'm sure someone out there would love to have this in their collection.",
+    "quantity": 1
+  }
+]

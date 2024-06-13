@@ -1,0 +1,30 @@
+[
+  {
+    "id": 31,
+    "name": "Golf shoes",
+    "price": 100,
+    "brand": "Footjoy",
+    "condition": "New",
+    "color": "White and Brown",
+    "yearsUsed": 0,
+    "category": "golf",
+    "type": "shoes",
+    "image": "images/golf/shoes.png",
+    "description": "Won these shoes at a raffle, but I just bought a pair the other week. They are brand new and have never been worn and just looking to get rid of them. Size 10",
+    "quantity": 1
+  },
+  {
+    "id": 32,
+    "name": "Footjoy Golf Shoes",
+    "price": 70,
+    "brand": "Footjoy",
+    "condition": "Good",
+    "color": "White and Black",
+    "yearsUsed": 1,
+    "category": "golf",
+    "type": "shoes",
+    "image": "images/golf/shoes-2.png",
+    "description": "Size 9 shoes. I have only been using these for a little bit but strained my back and can't play golf anymore. They are in good condition and have a lot of life left in them.",
+    "quantity": 1
+  }
+]

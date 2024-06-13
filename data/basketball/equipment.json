@@ -1,0 +1,30 @@
+[
+  {
+    "id": 13,
+    "name": "Used Basketball Hoop",
+    "price": 175,
+    "brand": "NXT",
+    "condition": "Okay",
+    "color": "Normal",
+    "yearsUsed": 6,
+    "category": "basketball",
+    "type": "equipment",
+    "image": "images/basketball/hoop.png",
+    "description": "Our family's outdoor hoop for the last 7 years. They just went off to college and it's just taking up space in the driveway. Hope someone can find some good value for it.",
+    "quantity": 1
+  },
+  {
+    "id": 14,
+    "name": "Rim Rebounder",
+    "price": 15,
+    "brand": "NXT",
+    "condition": "Used",
+    "color": "Orange",
+    "yearsUsed": 0,
+    "category": "basketball",
+    "type": "equipment",
+    "image": "images/basketball/rebounder.png",
+    "description": "My kids don't play basketball anymore, so we're selling this rebounder. It's in good condition, and my kids loved it while they were playing.",
+    "quantity": 1
+  }
+]

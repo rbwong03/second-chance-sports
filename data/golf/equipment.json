@@ -1,0 +1,30 @@
+[
+    {
+      "id": 29,
+      "name": "Set of Irons",
+      "price": 200,
+      "brand": "Stix",
+      "condition": "Good",
+      "color": "Silver",
+      "yearsUsed": 2,
+      "category": "golf",
+      "type": "equipment",
+      "image": "images/golf/clubs.png",
+      "description": "I've used these clubs for the better part of 2 years. I've outgrown them for better clubs, but theses are a great starter kit in my opinion. Selling them as a set.",
+      "quantity": 1
+    },
+    {
+        "id": 30,
+        "name": "Taylormade Driver",
+        "price": 100,
+        "brand": "Taylormade",
+        "condition": "Good",
+        "color": "White",
+        "yearsUsed": 1,
+        "category": "golf",
+        "type": "equipment",
+        "image": "images/golf/driver.png",
+        "description": "TaylorMade driver in pretty good condition. Got a new one for Christmas, so selling this one for cheap.",
+        "quantity": 1
+      }
+  ]

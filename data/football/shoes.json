@@ -1,0 +1,30 @@
+[
+  {
+    "id": 23,
+    "name": "Nike Air Jordan Retro 10 Mid TD Football Cleats",
+    "price": 70,
+    "brand": "Nike",
+    "condition": "Good",
+    "color": "Black, White, and Gold",
+    "yearsUsed": 2,
+    "category": "football",
+    "type": "shoes",
+    "image": "images/football/cleats.png",
+    "description": "Size 11.5. Cleats are still in good condition, but I have used them for 2 seasons. But at the same time, I don't see the field that much which is why they are in good condition.",
+    "quantity": 1
+  },
+  {
+    "id": 24,
+    "name": "Nike Alpha Menace Pro Mid Football Cleats",
+    "price": 120,
+    "brand": "Nike",
+    "condition": "Brand New",
+    "color": "Orange",
+    "yearsUsed": 0,
+    "category": "football",
+    "type": "shoes",
+    "image": "images/football/cleats-2.jpeg",
+    "description": "Size 9.5 cleats. I haven't used these since I got injured before the season started. They are brand new and have never been used.",
+    "quantity": 1
+  }
+]

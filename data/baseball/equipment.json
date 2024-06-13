@@ -1,0 +1,30 @@
+[
+  {
+    "id": 3,
+    "name": "Used Wilson A2000",
+    "price": 100,
+    "brand": "Wilson",
+    "condition": "Good condition",
+    "color": "Tan and Beige",
+    "yearsUsed": 8,
+    "category": "Baseball",
+    "type": "equipment",
+    "image": "images/glove.png",
+    "description": "This glove has been through it all with me. It stuck with me through my high school and college years. I've caught countless fly balls and grounders with it. It's been through a lot, but it's still in good condition. I'm selling it because I've moved on to a new glove, but I hope it can find a new home with someone who will love it as much as I did.",
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "name": "Used Rawlings",
+    "price": 150,
+    "brand": "Rawlings",
+    "condition": "Okay condition",
+    "color": "Orange and Camel",
+    "yearsUsed": 2,
+    "category": "Baseball",
+    "type": "equipment",
+    "image": "images/baseball/rawlings.png",
+    "description": "This is a fairly new glove. I just got a new one this one has bad juju. But it shouldn't for whoever uses it next. ",
+    "quantity": 1
+  }
+]

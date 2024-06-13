@@ -1,0 +1,30 @@
+[
+    {
+      "id": 17,
+      "name": "Walter Payton Jersey",
+      "price": 45,
+      "brand": "Nike",
+      "condition": "Good",
+      "color": "Navy",
+      "yearsUsed": 15,
+      "category": "football",
+      "type": "apparel",
+      "image": "images/football/jersey.png",
+      "description": "I've had this jersey for the past 15 years and it's still in good condition. The Bears have really disappointed me the past decade so I have to part ways. It might be a supersticious thing but I'm willing to part ways with it.",
+      "quantity": 1
+    },
+    {
+        "id": 18,
+        "name": "Bears Hats",
+        "price": 25,
+        "brand": "Nike",
+        "condition": "New",
+        "color": "Navy",
+        "yearsUsed": 0,
+        "category": "football",
+        "type": "apparel",
+        "image": "images/football/hat.png",
+        "description": "I have a bunch of new Bears hats that I want to sell at a discounted price. Buy as many as you want since there are a lot of them.",
+        "quantity": 15
+      }
+  ]

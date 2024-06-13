@@ -1,0 +1,234 @@
+/**
+ * Ryan Wong
+ * June 2024
+ * 
+ * This is the .css file that sets up the cart page. 
+ */
+
+body,
+header h1,
+nav ul,
+#cart-items,
+#checkout-items {
+  margin: 0;
+}
+
+body,
+nav ul,
+#cart-items,
+#checkout-items {
+  padding: 0;
+}
+
+header,
+nav ul li a,
+.remove-item,
+#checkout,
+.checkout-view button {
+  color: white;
+}
+
+.cart-view h2,
+.checkout-view h2,
+header {
+  text-align: center;
+}
+
+nav ul,
+main,
+#cart-items li,
+#checkout-items li,
+.cart-item-info,
+.checkout-view form {
+  display: flex;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  padding: 1em 0;
+}
+
+nav ul {
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #17a2b8;
+}
+
+main {
+  margin: 20px;
+}
+
+.cart-view,
+.checkout-view {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#cart-items,
+#checkout-items,
+nav ul {
+  list-style: none;
+}
+
+#cart-items li,
+#checkout-items li,
+main,
+.cart-item-info {
+  align-items: center;
+}
+
+#cart-items li,
+#checkout-items li,
+.cart-item-info {
+  justify-content: space-between;
+}
+
+#cart-items li,
+#checkout-items li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-item-image,
+.remove-item,
+#checkout,
+.checkout-view input {
+  border-radius: 5px;
+}
+
+.remove-item,
+.checkout-view button,
+#checkout {
+  border: none;
+}
+
+.remove-item,
+#checkout,
+.checkout-view button {
+  cursor: pointer;
+}
+
+.remove-item,
+.checkout-view button,
+#checkout {
+  transition: background-color 0.3s ease;
+}
+
+.checkout-view button,
+.cart-total,
+.checkout-total {
+  margin-top: 20px;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.cart-item-info {
+  width: 60%;
+}
+
+.remove-item {
+  background-color: #e24353;
+  padding: 5px 10px;
+}
+
+.remove-item:hover {
+  background-color: #9f0c1a;
+}
+
+.cart-total,
+.checkout-total {
+  text-align: right;
+  font-size: 18px;
+}
+
+#checkout,
+.checkout-view button {
+  font-size: 16px;
+}
+
+#checkout {
+  width: 100%;
+  padding: 10px;
+  background-color: #343a40;
+}
+
+#checkout:hover {
+  background-color: #495057;
+}
+
+.message {
+  margin-top: 15px;
+}
+
+.message.success {
+  color: green;
+}
+
+.message.error {
+  color: red;
+}
+
+button:active {
+  transform: translate(0px, 2px);
+}
+
+.checkout-view,
+.message,
+.hidden {
+  display: none;
+}
+
+.checkout-view form,
+main {
+  flex-direction: column;
+}
+
+.checkout-view label {
+  margin-top: 10px;
+}
+
+.checkout-view input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+.checkout-view button {
+  padding: 10px;
+  border-radius: p;
+}
+
+header,
+.checkout-view button,
+.checkout-view button:hover {
+  background-color: #333;
+}
+
+.visible,
+.message.success,
+.message.error {
+  display: block;
+}

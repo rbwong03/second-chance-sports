@@ -1,0 +1,30 @@
+[
+  {
+    "id": 25,
+    "name": "Masters Bucket Hat",
+    "price": 25,
+    "brand": "PGA",
+    "condition": "Good",
+    "color": "White",
+    "yearsUsed": 2,
+    "category": "golf",
+    "type": "apparel",
+    "image": "images/golf/hat.png",
+    "description": "Masters bucket hat. I got this at the 2022 Masters Tournament. It is in great condition and has been worn a few times. It is a great hat for keeping the sun out of your eyes while playing golf. It is a size medium.",
+    "quantity": 1
+  },
+  {
+      "id": 26,
+      "name": "Masters Bucket Hat",
+      "price": 30,
+      "brand": "PGA",
+      "condition": "Great",
+      "color": "Green",
+      "yearsUsed": 3,
+      "category": "golf",
+      "type": "apparel",
+      "image": "images/golf/hat-2.jpeg",
+      "description": "Polka dotted Masters bucket hat. I got this at the 2021 Masters Tournament. It is in great condition and has been worn every time I go golfing, which is only like 4 times a year.",
+      "quantity": 1
+    }
+]

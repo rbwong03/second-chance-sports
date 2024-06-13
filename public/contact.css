@@ -1,0 +1,129 @@
+/**
+ * Ryan Wong
+ * June 2024
+ * 
+ * This is the .css file that sets up the contact page. 
+ */
+
+body,
+header h1,
+nav ul {
+  margin: 0;
+}
+
+body,
+nav ul {
+  padding: 0;
+}
+
+header,
+.contact-form button {
+  background-color: #333;
+}
+
+header,
+nav ul li a,
+.contact-form button {
+  color: white;
+}
+
+header,
+.contact-form h2,
+#formResponse {
+  text-align: center;
+}
+
+nav ul,
+main,
+.contact-form form {
+  display: flex;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+header {
+  padding: 1em 0;
+}
+
+nav ul,
+main {
+  justify-content: center;
+}
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #17a2b8;
+}
+
+main {
+  margin: 20px;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 50%;
+}
+
+.contact-form form {
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button,
+#formResponse {
+  padding: 10px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form button,
+#formResponse {
+  border-radius: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #495057;
+}
+
+.hidden {
+  display: none;
+}
+
+#formResponse,
+.contact-form button {
+  margin-top: 20px;
+}

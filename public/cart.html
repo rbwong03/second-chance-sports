@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cart.css" />
+    <script defer src="cart.js"></script>
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <header>
+      <h1>Second Chance Sports</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html#carousel1">Baseball</a></li>
+          <li><a href="index.html#carousel2">Basketball</a></li>
+          <li><a href="index.html#carousel3">Football</a></li>
+          <li><a href="index.html#carousel4">Golf</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="cart-view">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items">
+          <!-- to be populated -->
+        </ul>
+        <div class="cart-total">
+          <p>Total: $<span id="cart-total">0.00</span></p>
+        </div>
+        <button id="checkout">Submit Purchase</button>
+      </section>
+      <section class="checkout-view" id="checkout-view">
+        <h2>Checkout</h2>
+        <div id="checkout-summary">
+          <h3>Order Summary</h3>
+          <ul id="checkout-items">
+            <!-- to be populated -->
+          </ul>
+          <div class="checkout-total">
+            <p>Total: $<span id="checkout-total">0.00</span></p>
+          </div>
+        </div>
+        <form id="checkout-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required />
+          <label for="card">Credit Card:</label>
+          <input type="text" id="card" name="card" required />
+          <label for="expiration">Expiration Date:</label>
+          <input type="text" id="expiration" name="expiration" required />
+          <label for="ccv">CCV:</label>
+          <input type="text" id="ccv" name="ccv" required />
+          <button type="submit">Complete Purchase</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

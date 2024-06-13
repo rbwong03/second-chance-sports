@@ -1,0 +1,30 @@
+[
+  {
+    "id": 15,
+    "name": "Used Nike Precision IV",
+    "price": 100,
+    "brand": "Nike",
+    "condition": "Good",
+    "color": "Red",
+    "yearsUsed": 1,
+    "category": "basketball",
+    "type": "shoes",
+    "image": "images/basketball/shoes.png",
+    "description": "Played just once season with these. Getting a new pair for the next season. Great pair of basketball shoes. Size 13, scored a high of 42 with these. Had one of my best seasons with these. Trying to share the wealth.",
+    "quantity": 1
+  },
+  {
+    "id": 16,
+    "name": "Used Stephan Curry 7 Size 10",
+    "price": 90,
+    "brand": "Under Armour",
+    "condition": "New",
+    "color": "Grey",
+    "yearsUsed": 0,
+    "category": "basketball",
+    "type": "shoes",
+    "image": "images/basketball/shoes-2.jpeg",
+    "description": "They sent me an extra pair of shoes for some reason, so I'm selling them. They're brand new, never been worn. Size 10. They're a great pair of shoes, I have a pair myself. They're very comfortable and have great traction. They're also very stylish. I would recommend them to anyone.",
+    "quantity": 1
+  }
+]

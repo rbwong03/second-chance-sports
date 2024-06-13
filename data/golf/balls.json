@@ -1,0 +1,30 @@
+[
+  {
+    "id": 27,
+    "name": "Used Golf Balls",
+    "price": 1,
+    "brand": "Mix",
+    "condition": "Good",
+    "color": "White",
+    "yearsUsed": 3,
+    "category": "golf",
+    "type": "balls",
+    "image": "images/golf/balls.png",
+    "description": "These are the golf balls that I've been using at my range for the past 3 years. They are still in good condition. I just haven't been using them as much as I've been busy with work.",
+    "quantity": 300
+  },
+  {
+    "id": 28,
+    "name": "Colored Golf Balls",
+    "price": 1.5,
+    "brand": "Mix",
+    "condition": "Good",
+    "color": "Colorful",
+    "yearsUsed": 2,
+    "category": "golf",
+    "type": "balls",
+    "image": "images/golf/balls-2.png",
+    "description": "I've been collecting these colored golf balls for the past 2 years. Looking to sell them for cheap.",
+    "quantity": 250
+  }
+]

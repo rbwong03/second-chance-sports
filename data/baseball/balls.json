@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Used Baseballs",
+    "price": 3,
+    "brand": "Rawlings",
+    "condition": "Good condition",
+    "color": "White",
+    "yearsUsed": 2,
+    "category": "Baseball",
+    "type": "balls",
+    "image": "images/baseball/baseballs-stock.png",
+    "description": "There are a lot of baseballs here. No need to buy all of them, just order however many you want. I've thrown bullpens with them and also took batting practice. They are in good condition. Going for $3 a ball.",
+    "quantity": 150
+  },
+  {
+    "id": 2,
+    "name": "New Baseballs",
+    "price": 50,
+    "brand": "Rawlings",
+    "condition": "New",
+    "color": "White",
+    "yearsUsed": 0,
+    "category": "Baseball",
+    "type": "balls",
+    "image": "images/baseball/baseballs-stock2.jpeg",
+    "description": "I've got new baseballs here that I won't be using. Selling them at a discounted price. They are in perfect condition, selling all of them. Comes with 20 balls.",
+    "quantity": 20
+  }
+]

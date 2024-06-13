@@ -1,0 +1,259 @@
+<!-- /**
+ * Ryan Wong
+ * June 2024
+ * 
+ * This is the .html file that sets up the home page. 
+ */ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="index.js"></script>
+    <title>Sports</title>
+  </head>
+  <body>
+    <header>
+      <h1>Second Chance Sports</h1>
+      <nav>
+        <ul>
+          <li><a href="#baseball">Baseball</a></li>
+          <li><a href="#basketball">Basketball</a></li>
+          <li><a href="#football">Football</a></li>
+          <li><a href="#golf">Golf</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <h2>Filters</h2>
+        <fieldset class="checkboxes">
+          <legend>Filter by Sport:</legend>
+          <div class="checkbox">
+            <input type="checkbox" id="baseball" name="sport" /><label
+              for="baseball"
+              >Baseball</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="basketball" name="sport" /><label
+              for="basketball"
+              >Basketball</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="football" name="sport" /><label
+              for="football"
+              >Football</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="golf" name="sport" /><label for="golf"
+              >Golf</label
+            >
+          </div>
+        </fieldset>
+        <fieldset class="checkboxes">
+          <legend>Filter by Type:</legend>
+          <div class="checkbox">
+            <input type="checkbox" id="balls" name="type" /><label for="balls"
+              >Balls</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="equipment" name="type" /><label
+              for="equipment"
+              >Equipment</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="shoes" name="type" /><label for="shoes"
+              >Shoes</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="apparel" name="type" /><label
+              for="apparel"
+              >Apparel</label
+            >
+          </div>
+        </fieldset>
+        <button id="clear-filters">Clear Filters</button>
+      </aside>
+      <section class="catalog">
+        <div class="sport" id="baseball">
+          <h2>Baseball</h2>
+          <section class="carousel">
+            <figure>
+              <a href="items.html?category=baseball&type=balls"
+                ><img
+                  src="images/baseballs.png"
+                  alt="Baseballs"
+                  data-type="balls"
+              /></a>
+              <figcaption>Baseballs</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=baseball&type=equipment"
+                ><img src="images/glove.png" alt="Gloves" data-type="equipment"
+              /></a>
+              <figcaption>Equipment</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=baseball&type=shoes"
+                ><img
+                  src="images/baseball-cleats.png"
+                  alt="Cleats"
+                  data-type="shoes"
+              /></a>
+              <figcaption>Cleats</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=baseball&type=apparel"
+                ><img
+                  src="images/baseball-apparel.jpeg"
+                  alt="Apparel"
+                  data-type="apparel"
+              /></a>
+              <figcaption>Apparel</figcaption>
+            </figure>
+          </section>
+        </div>
+        <div class="sport" id="basketball">
+          <h2>Basketball</h2>
+          <section class="carousel">
+            <figure>
+              <a href="items.html?category=basketball&type=balls"
+                ><img
+                  src="images/basketballs.jpeg"
+                  alt="Basketballs"
+                  data-type="balls"
+              /></a>
+              <figcaption>Basketballs</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=basketball&type=equipment"
+                ><img
+                  src="images/basketball-accessories.jpeg"
+                  alt="Accessories"
+                  data-type="equipment"
+              /></a>
+              <figcaption>Equipment</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=basketball&type=shoes"
+                ><img
+                  src="images/basketball-shoes.jpeg"
+                  alt="Basketball Shoes"
+                  data-type="shoes"
+              /></a>
+              <figcaption>Basketball Shoes</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=basketball&type=apparel"
+                ><img
+                  src="images/basketball-apparel.jpeg"
+                  alt="Apparel"
+                  data-type="apparel"
+              /></a>
+              <figcaption>Apparel</figcaption>
+            </figure>
+          </section>
+        </div>
+        <div class="sport" id="football">
+          <h2>Football</h2>
+          <section class="carousel">
+            <figure>
+              <a href="items.html?category=football&type=balls"
+                ><img
+                  src="images/footballs.jpeg"
+                  alt="Footballs"
+                  data-type="balls"
+              /></a>
+              <figcaption>Footballs</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=football&type=equipment"
+                ><img
+                  src="images/football-helmets.jpeg"
+                  alt="Helmets and Pads"
+                  data-type="equipment"
+              /></a>
+              <figcaption>Equipment</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=football&type=shoes"
+                ><img
+                  src="images/football-cleats.jpeg"
+                  alt="Cleats"
+                  data-type="shoes"
+              /></a>
+              <figcaption>Cleats</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=football&type=apparel"
+                ><img
+                  src="images/football-jersey.jpeg"
+                  alt="Apparel"
+                  data-type="apparel"
+              /></a>
+              <figcaption>Apparel</figcaption>
+            </figure>
+          </section>
+        </div>
+        <div class="sport" id="golf">
+          <h2>Golf</h2>
+          <section class="carousel">
+            <figure>
+              <a href="items.html?category=golf&type=balls"
+                ><img
+                  src="images/golf-balls.jpeg"
+                  alt="Golf Balls"
+                  data-type="balls"
+              /></a>
+              <figcaption>Golf Balls</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=golf&type=equipment"
+                ><img
+                  src="images/golf-clubs.jpeg"
+                  alt="Golf Clubs"
+                  data-type="equipment"
+              /></a>
+              <figcaption>Equipment</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=golf&type=shoes"
+                ><img
+                  src="images/golf-shoes.jpeg"
+                  alt="Shoes"
+                  data-type="shoes"
+              /></a>
+              <figcaption>Shoes</figcaption>
+            </figure>
+            <figure>
+              <a href="items.html?category=golf&type=apparel"
+                ><img
+                  src="images/golf-hats.jpeg"
+                  alt="Apparel"
+                  data-type="apparel"
+              /></a>
+              <figcaption>Apparel</figcaption>
+            </figure>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
